@@ -4,8 +4,6 @@ The 3D Object Tracking repository uses a solid understanding of keypoint detecto
 Also, we need to know how to detect objects in an image using the YOLO deep-learning framework.
 And finally, we need to know how to associate regions in a camera image with Lidar points in 3D space. Let's take a look at how this can be done!
 
-<img src="images/course_code_structure.png" width="779" height="414" />
-
 ## Dependencies for Running Locally
 * cmake >= 2.8
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
