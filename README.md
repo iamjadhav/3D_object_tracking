@@ -44,7 +44,7 @@ And finally, we need to know how to associate regions in a camera image with Lid
 
 Time To Collision for all 78 datapoints
 
-<img src="docs/graphs_entire_dataset/ttc_lidar_camera_FAST_BRISK.png" width="960" height="493" />
+<img src="docs/graphs_entire_dataset/ttc_lidar_camera_FAST_BRISK.PNG" width="960" height="493" />
 
 
 ## Arguments
