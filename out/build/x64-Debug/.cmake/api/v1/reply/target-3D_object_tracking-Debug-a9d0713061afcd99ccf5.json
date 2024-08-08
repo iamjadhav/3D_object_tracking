@@ -1,0 +1,1291 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "3D_object_tracking.exe"
+		},
+		{
+			"path" : "3D_object_tracking.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"link_directories",
+			"target_link_libraries",
+			"add_definitions",
+			"set_property",
+			"include",
+			"find_external_library",
+			"find_package",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"C:/Program Files/PCL 1.11.1/3rdParty/VTK/lib/cmake/vtk-8.2/UseVTK.cmake",
+			"C:/Program Files/PCL 1.11.1/cmake/PCLConfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 543,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 348,
+				"parent" : 7
+			},
+			{
+				"file" : 1,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1   -std=c++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "BOOST_ALL_NO_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LZ4_DLL_IMPORT=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "__SSE2__"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "__SSE__"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "__SSSE3__"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "vtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/adi30/AppData/Local/Programs/Python/Python310/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "D:/UMD/Courses/Udacity/Sensor_Fusion/SFND_Camera/3D_Object_Tracking/include"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "C:/Program Files/PCL 1.11.1/3rdParty/VTK/include/vtk-8.2"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv-4.6.0/build"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv-4.6.0/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv-4.6.0/modules/core/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv-4.6.0/modules/flann/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv-4.6.0/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/intensity_transform/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv-4.6.0/modules/ml/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/phase_unwrapping/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv-4.6.0/modules/photo/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/plot/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/quality/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/reg/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/surface_matching/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/viz/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/xphoto/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv-4.6.0/modules/dnn/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/dnn_superres/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv-4.6.0/modules/features2d/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/fuzzy/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/hfs/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv-4.6.0/modules/imgcodecs/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/line_descriptor/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/saliency/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/text/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv-4.6.0/modules/videoio/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/wechat_qrcode/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/barcode/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv-4.6.0/modules/calib3d/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/datasets/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv-4.6.0/modules/highgui/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/mcc/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv-4.6.0/modules/objdetect/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/rapid/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/rgbd/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/shape/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/structured_light/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv-4.6.0/modules/video/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/videostab/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/xfeatures2d/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/ximgproc/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/xobjdetect/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/aruco/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/bgsegm/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/bioinspired/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/ccalib/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/dnn_objdetect/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/dpm/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/face/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv-4.6.0/modules/gapi/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/optflow/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv-4.6.0/modules/stitching/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/superres/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/tracking/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/stereo/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv-4.6.0/modules/world/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv_contrib-4.6.0/modules/img_hash/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-4.6.0/opencv-4.6.0/modules/ts/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/Program Files/PCL 1.11.1/3rdParty/Boost/include/boost-1_74"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/Program Files/PCL 1.11.1/include/pcl-1.11"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/Program Files/PCL 1.11.1/3rdParty/Eigen/eigen3"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/Program Files/OpenNI2/Include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "C:/Program Files/PCL 1.11.1/3rdParty/Qhull/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "C:/Program Files/PCL 1.11.1/3rdParty/FLANN/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"id" : "3D_object_tracking::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64  /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-LIBPATH:C:\\PROGRA~1\\PCL111~1.1\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_img_hash460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\lib\\pcl_surfaced.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\lib\\pcl_keypointsd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\lib\\pcl_trackingd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\lib\\pcl_recognitiond.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\lib\\pcl_stereod.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\lib\\pcl_outofcored.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\lib\\pcl_peopled.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\Boost\\lib\\libboost_system-vc142-mt-gd-x64-1_74.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\Boost\\lib\\libboost_filesystem-vc142-mt-gd-x64-1_74.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\Boost\\lib\\libboost_date_time-vc142-mt-gd-x64-1_74.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\Boost\\lib\\libboost_iostreams-vc142-mt-gd-x64-1_74.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\Boost\\lib\\libboost_serialization-vc142-mt-gd-x64-1_74.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\Boost\\lib\\libboost_regex-vc142-mt-gd-x64-1_74.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\Qhull\\lib\\qhullstatic_d.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\OpenNI2\\Lib\\OpenNI2.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkChartsCore-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkInfovisCore-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkViewsContext2D-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkViewsCore-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkRenderingContextOpenGL2-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\FLANN\\lib\\flann_cpp_s-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\Users\\adi30\\AppData\\Local\\Programs\\Python\\Python310\\libs\\python310_d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\OpenCV-4.6.0\\opencv-4.6.0\\build\\lib\\Debug\\opencv_world460d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkIOGeometry-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkIOLegacy-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkIOPLY-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkRenderingLOD-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\lib\\pcl_registrationd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\lib\\pcl_segmentationd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\lib\\pcl_featuresd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\lib\\pcl_filtersd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\lib\\pcl_sample_consensusd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\lib\\pcl_mld.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\lib\\pcl_visualizationd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\lib\\pcl_searchd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\lib\\pcl_kdtreed.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\lib\\pcl_iod.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\lib\\pcl_octreed.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\lib\\pcl_commond.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkInteractionWidgets-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkFiltersModeling-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkInteractionStyle-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkFiltersExtraction-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkFiltersStatistics-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkImagingFourier-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkFiltersHybrid-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkImagingGeneral-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkImagingSources-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkImagingHybrid-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkIOImage-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkDICOMParser-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkmetaio-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "comctl32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "wsock32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkpng-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtktiff-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkjpeg-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkRenderingAnnotation-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkImagingColor-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkRenderingVolume-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkIOXML-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkIOXMLParser-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkIOCore-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkdoubleconversion-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtklz4-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtklzma-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkexpat-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkImagingCore-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkRenderingContext2D-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkRenderingFreeType-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkfreetype-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkzlib-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkRenderingOpenGL2-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkRenderingCore-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkCommonColor-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkFiltersGeometry-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkFiltersSources-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkFiltersGeneral-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkCommonComputationalGeometry-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkFiltersCore-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkCommonExecutionModel-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkCommonDataModel-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkCommonTransforms-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkCommonMisc-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkCommonMath-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkCommonSystem-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkCommonCore-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtksys-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "ws2_32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "Psapi.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\PCL 1.11.1\\3rdParty\\VTK\\lib\\vtkglew-8.2-gd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "3D_object_tracking",
+	"nameOnDisk" : "3D_object_tracking.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/camFusion_Student.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/FinalProject_Camera.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/lidarData.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/matching2D_Student.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/objectDetection2D.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

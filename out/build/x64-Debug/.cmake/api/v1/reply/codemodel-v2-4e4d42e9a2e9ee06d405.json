@@ -1,0 +1,59 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "camera_fusion",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "3D_object_tracking::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3D_object_tracking-Debug-a9d0713061afcd99ccf5.json",
+					"name" : "3D_object_tracking",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/UMD/Courses/Udacity/Sensor_Fusion/SFND_Camera/3D_Object_Tracking/out/build/x64-Debug",
+		"source" : "D:/UMD/Courses/Udacity/Sensor_Fusion/SFND_Camera/3D_Object_Tracking"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}
